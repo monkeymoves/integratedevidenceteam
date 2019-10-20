@@ -1,0 +1,196 @@
+{
+    "name": "Integrated Evidence Group",
+    "level": "darkslategray",
+    "email": "evidence@cyfoethnaturiolcymru.gov.uk",
+
+    "children": [
+        {
+            "title": "Group Head",
+            "name": "Kathryn Monk",
+            "email": "Kathryn.Monk@cyfoethnaturiolcymru.gov.uk",
+            "level": "darkslategray",
+
+            
+
+            "children": [
+                {
+                    "title": "Air Quality Modelling & Risk Assessment",
+                    "level": "maroon",
+                    "children": [
+                        {
+                            "title": "Team leader",
+                            "name": "Jiping",
+                            "email": "Jiping.Shi@cyfoethnaturiolcymru.gov.uk",
+                            "level": "mediumblue",
+                            "children": [
+                                {
+                                    "title": "Specialist AQ 1",
+                                    "name": "Neil",
+                                    "email": "airquality@naturalresourceswales.gov.uk",
+                                    "level": "mediumblue"
+
+                                },
+                                {
+                                    "title": "Specialist AQ 2",
+                                    "name": "Saul",
+                                    "email": "airquality@naturalresourceswales.gov.uk",
+                                    "level": "mediumblue"
+
+                                },
+                                {
+                                    "title": "Specialist AQ 3",
+                                    "name": "Vacant",
+                                    "email": "airquality@naturalresourceswales.gov.uk",
+                                    "level": "mediumblue"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Evidence Programmes",
+                    "level": "maroon",
+                    "children": [
+                        {
+                            "title": "Team leader",
+                            "name": "Nina Menichino",
+                            "email": "nina.m.menichino@cyfoethnaturiolcymru.gov.uk",
+                            "level": "forestgreen",
+                            "children": [
+                                {
+                                    "title" : "Evidence Team",
+                                    "level": "forestgreen",
+                                    "children" : [
+                                          {
+                                            "title": "Evidence Advisor",
+                                            "name": "Simon Web",
+                                            "email": "Simon.Webb@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Economist",
+                                            "name": "Luke Davies",
+                                            "email": "Luke.Davies@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "magenta"
+
+                                        },
+                                      
+                                        {
+                                            "title": "Evaluation",
+                                            "name": "Vacant",
+                                            "email": "@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "rebeccapurple"
+                                        },
+                                        {
+                                            "title": "Behavioural Insights",
+                                            "name": "Vacant",
+                                            "email": "@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "rebeccapurple"
+                                        },
+                                       
+                                        {
+                                            "title": "Evidence Synthesis and Communication",
+                                            "name": "Vacant",
+                                            "email": "@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "darkturquoise"
+                                        },
+                                        {
+                                            "title": "Modelling, Risk, and Uncertainty",
+                                            "name": "Vacant",
+                                            "email": "@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "darkturquoise"
+                                        },
+                                       
+                                        {
+                                            "title": "Horizon-Scanning and Innovation",
+                                            "name": "Vacant",
+                                            "email": "@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "orange"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Embedded Evidence ",
+                                    "name": "Programme Managers",
+                                    "level": "forestgreen",
+                                    "children": [
+                                        {
+                                            "title": "Central Evidence",
+                                            "name": "Us",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Flood Risk",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "NRM - Marine, Inland Water, Biodiversity",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Regulation",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Land Stewardship",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Enabling Services",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        },
+                                        {
+                                            "title": "Incidents & Responses",
+                                            "name": "Vacant",
+                                            "level": "darkslategray"
+                                        }
+                
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Interdisciplinary Specialist",
+                    "level": "maroon",
+                    "children": [
+                        {
+                            "title": "Economics",
+                            "name": "John Gossage",
+                            "level": "magenta",
+                            "email": "John.Gossage@cyfoethnaturiolcymru.gov.uk"
+
+
+                        },
+                        {
+                            "title": "Social Scientist",
+                            "name": "Susan Williams",   
+                            "email": "Susan.Williams@cyfoethnaturiolcymru.gov.uk",
+                            "level": "rebeccapurple"
+                        },
+                         {
+                            "title": "Statistician",
+                            "name": "Richard Cardwell",
+                            "email": "Richard.Cardwell@cyfoethnaturiolcymru.gov.uk",
+                            "level": "darkturquoise"
+                        },
+                       
+                        {
+                            "title": "Operations Research",
+                            "name": "Luke Maggs",
+                            "email": "Luke.Maggs@cyfoethnaturiolcymru.gov.uk",
+                            "level": "orange"
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

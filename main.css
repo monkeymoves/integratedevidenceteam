@@ -1,0 +1,64 @@
+
+
+.node {
+  cursor: pointer;
+}
+
+#details {
+    clear: both;
+    float: left;
+    display: none;
+    margin: 20px 20px;
+  
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 12px sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.found {
+  fill: #ff4136;
+  stroke: #ff4136;
+}
+
+.search {
+  
+  float: left;
+  font: 11px sans-serif;
+  width: 200px;
+
+}
+
+ul.select2-results {
+ max-height: 150px;
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+  font: 12px sans-serif;
+}
+
+#block_container {
+  display: inline;
+}
+
+img {
+  padding: 1%;
+  width: 25%;
+  height: auto;
+}
