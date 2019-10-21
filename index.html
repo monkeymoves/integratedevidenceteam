@@ -19,7 +19,7 @@
 <body>
 
     <div class="header">
-        <img src="nrwlogo.png"> </img>
+        <img src="nrwlogo.png" > </img>
         <!-- <p>My supercool header</p> -->
       </div>
 
@@ -124,6 +124,7 @@ function userClick(d) {
     $('.phone').text(d.phone);
     d3.event.stopPropagation();
 }
+
 
 $("#searchName").on("select2-selecting", function(e) {
     clearAll(root);
@@ -255,7 +256,7 @@ var texts = nodeEnter.append('g')
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", 6.5)
 	  //.style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 	  .style("fill", function(d) {
             if (d.class === "found") {
