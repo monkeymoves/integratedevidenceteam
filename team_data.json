@@ -14,6 +14,40 @@
 
             "children": [
                 {
+                    "title": "Environment Platform Wales",
+                    "level": "maroon",
+                    "children": [
+                        {
+                            "title": "Director EPW",
+                            "name": "Jennifer Geroni",
+                            "email": "jennifer.geroni@epwales.org.uk",
+                            "level": "DeepskyBlue",
+                            "children": [
+                                {
+                                    "title": "Comms & Marketing EPW",
+                                    "name": "Gemma Treharne-Foose",
+                                    "email": "Gemma.TF@epwales.org.uk",
+                                    "level": "DeepskyBlue"
+
+                                },
+                                {
+                                    "title": "Administrator EPW",
+                                    "name": "Sue Cody",
+                                    "email": "Sue.Cody@epwales.org.uk",
+                                    "level": "DeepskyBlue"
+
+                                },
+                                {
+                                    "title": "Events Coordinator NRW",
+                                    "name": "Mark Pethrick",
+                                    "email": "mark.pethrick@naturalresourceswales.gov.uk",
+                                    "level": "forestgreen"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "title": "Air Quality Modelling & Risk Assessment",
                     "level": "maroon",
                     "children": [
@@ -63,7 +97,7 @@
                                     "children" : [
                                           {
                                             "title": "Evidence Advisor",
-                                            "name": "Simon Web",
+                                            "name": "Vacant",
                                             "email": "Simon.Webb@cyfoethnaturiolcymru.gov.uk",
                                             "level": "darkslategray"
                                         },

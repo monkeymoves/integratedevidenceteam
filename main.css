@@ -29,6 +29,14 @@
   stroke-width: 2px;
 }
 
+
+
+#instructions{
+  font: 12px sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
 .found {
   fill: #ff4136;
   stroke: #ff4136;
@@ -55,6 +63,8 @@ ul.select2-results {
 
 #block_container {
   display: inline;
+  padding: 25;
+
 }
 
 img {
