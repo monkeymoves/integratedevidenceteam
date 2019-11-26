@@ -121,8 +121,7 @@ function userClick(d) {
     $('.name').text(d.name);
     $('.email').text(d.email);
     $('.phone').text(d.phone);
-    d3.event.stopPropagation();
-}
+    d3.event.stopPropagation();}
 
 
 $("#searchName").on("select2-selecting", function(e) {
@@ -139,9 +138,9 @@ $("#searchName").on("select2-selecting", function(e) {
 // search end
 
 
-var margin = {top: 10, right: 10, bottom: 10, left: 200},
+var margin = {top: 0, right: 10, bottom: 10, left: 200},
     width = 2500 - margin.right - margin.left,
-    height = 1020 - margin.top - margin.bottom;
+    height = 1000 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 700,
