@@ -176,8 +176,7 @@ d3.json("team_data.json", function(error, flare) {
         })
         .filter(function(item, i, ar) {
             return ar.indexOf(item) === i;
-        }) // remove duplicate items
-        .filter(function(item, i, ar) {
+        }) // remove duplicate items        .filter(function(item, i, ar) {
             select2DataObject.push({
                 "id": i,
                 "text": item
@@ -201,7 +200,7 @@ d3.json("team_data.json", function(error, flare) {
   update(root);
 });
 
-d3.select(self.frameElement).style("height", "1000px");
+d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
 
