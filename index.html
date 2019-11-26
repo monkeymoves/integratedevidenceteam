@@ -121,7 +121,8 @@ function userClick(d) {
     $('.name').text(d.name);
     $('.email').text(d.email);
     $('.phone').text(d.phone);
-    d3.event.stopPropagation();}
+    d3.event.stopPropagation();
+}
 
 
 $("#searchName").on("select2-selecting", function(e) {
@@ -153,7 +154,7 @@ var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
 var svg = d3.select("body").append("svg")
-   .attr("width", width + margin.right + margin.left)
+    .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -176,7 +177,8 @@ d3.json("team_data.json", function(error, flare) {
         })
         .filter(function(item, i, ar) {
             return ar.indexOf(item) === i;
-        }) // remove duplicate items        .filter(function(item, i, ar) {
+        }) // remove duplicate items
+        .filter(function(item, i, ar) {
             select2DataObject.push({
                 "id": i,
                 "text": item
