@@ -1,92 +1,110 @@
 {
+    "title": "Integrated Evidence Group",
     "name": "Integrated Evidence Group",
     "level": "darkslategray",
     "email": "evidence@cyfoethnaturiolcymru.gov.uk",
 
     "children": [
         {
-            "title": "Group Head",
+            "title": "Group Head (Kathryn Monk)",
             "name": "Kathryn Monk",
             "email": "Kathryn.Monk@cyfoethnaturiolcymru.gov.uk",
-            "level": "darkslategray",
+            "level": "darkslategrey",
 
             
 
             "children": [
-                {
-                    "title": "Environment Platform Wales (EPW)",
-                    "level": "maroon",
-                    "children": [
-                        {
-                            "title": "Director EPW",
-                            "name": "Jennifer Geroni",
-                            "email": "jennifer.geroni@epwales.org.uk",
-                            "level": "DeepskyBlue",
-                            "children": [
-                                {
-                                    "title": "Communications & Marketing EPW",
-                                    "name": "Gemma Treharne-Foose",
-                                    "email": "Gemma.TF@epwales.org.uk",
-                                    "level": "DeepskyBlue"
-
-                                },
-                                {
-                                    "title": "Administrator EPW",
-                                    "name": "Sue Cody",
-                                    "email": "Sue.Cody@epwales.org.uk",
-                                    "level": "DeepskyBlue"
-
-                                },
-                                {
-                                    "title": "Communications & Events NRW",
-                                    "name": "Mark Petherick",
-                                    "email": "mark.pethrick@naturalresourceswales.gov.uk",
-                                    "level": "forestgreen"
-                                }
-                            ]
-                        }
-                    ]
-                },
+          
                 {
                     "title": "Air Quality Modelling & Risk Assessment",
                     "level": "maroon",
                     "children": [
                         {
-                            "title": "Team leader",
+                            "title": "Team leader (Jiping Shi)",
                             "name": "Jiping Shi",
                             "email": "Jiping.Shi@cyfoethnaturiolcymru.gov.uk",
-                            "level": "mediumblue",
+                            "level": "darkcyan",
                             "children": [
                                 {
-                                    "title": "Specialist AQ 1",
+                                    "title": "Specialist AQ (Neil Davies)",
                                     "name": "Neil Davies",
                                     "email": "Neil.davies@cyfoethnaturiolcymru.gov.uk",
-                                    "level": "mediumblue"
+                                    "level": "darkcyan"
 
                                 },
                                 {
-                                    "title": "Specialist AQ 2",
+                                    "title": "Specialist AQ (Saul White)",
                                     "name": "Saul White",
                                     "email": "Saul.White@cyfoethnaturiolcymru.gov.uk",
-                                    "level": "mediumblue"
+                                    "level": "darkcyan"
 
                                 },
                                 {
-                                    "title": "Specialist AQ 3",
-                                    "name": "Vacant",
-                                    "email": "airquality@naturalresourceswales.gov.uk",
-                                    "level": "mediumblue"
+                                    "title": "Specialist AQ (Robert Hester)",
+                                    "name": "Robert Hester",
+                                    "email": "Robert.Hester@naturalresourceswales.gov.uk",
+                                    "level": "darkcyan"
                                 }
                             ]
                         }
                     ]
                 },
                 {
+                    "title": "Interdisciplinary Specialists", 
+                    "name": "Interdisciplinary Specialists",
+                    "level": "maroon",
+                    "children": [
+                  
+                   
+                        {
+                            "title": "Statistician (Richard Cardwell)",
+                            "name": "Richard Cardwell",
+                            "email": "Richard.Cardwell@cyfoethnaturiolcymru.gov.uk",
+                            "level": "darkturquoise"
+                        },
+                        {
+                            "title": "Social Scientist (Susan Williams)",
+                            "name": "Susan Williams",   
+                            "email": "Susan.Williams@cyfoethnaturiolcymru.gov.uk",
+                            "level": "rebeccapurple"
+                        },
+                        {
+                            "title": "Economics (John Gossage)",
+                            "name": "John Gossage",
+                            "level": "magenta",
+                            "email": "John.Gossage@cyfoethnaturiolcymru.gov.uk"
+
+
+                        },
+                   
+                      
+                       
+                        {
+                            "title": "Operations Research (Luke Maggs)",
+                            "name": "Luke Maggs",
+                            "email": "Luke.Maggs@cyfoethnaturiolcymru.gov.uk",
+                            "level": "orange",
+                            "children": [
+                                {
+                                    "title": "NRW Innovation Group",
+                                    "name": "Chair: Ben Wilson",
+                                    "email": "Innovation@cyfoethnaturiolcymru.gov.uk",
+                                    "level": "orange"
+                                    
+                
+                                }
+                            ]
+                        }
+                        
+                    ]
+                },
+                
+                {
                     "title": "Evidence Programmes",
                     "level": "maroon",
                     "children": [
                         {
-                            "title": "Team leader",
+                            "title": "Evidence Team Leader (Nina Menichino)",
                             "name": "Nina Menichino",
                             "email": "nina.m.menichino@cyfoethnaturiolcymru.gov.uk",
                             "level": "forestgreen",
@@ -95,137 +113,219 @@
                                     "title" : "Evidence Team",
                                     "level": "forestgreen",
                                     "children" : [
-                                          {
-                                            "title": "Evidence Advisor",
-                                            "name": "Vacant",
-                                            "email": "Simon.Webb@cyfoethnaturiolcymru.gov.uk",
-                                            "level": "darkslategray"
+                                                                      
+                                        {
+                                            "title": "Evidence Synthesis & Comms (Josephine Jackson)",
+                                            "name": "Josephine Jackson",
+                                            "email": "Josephine.Jackson@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "darkturquoise"
                                         },
                                         {
-                                            "title": "Economist",
+                                            "title": "Modelling, Risk, & Uncertainty (Henry Knowles)",
+                                            "name": "Henry Knowles",
+                                            "email": "Henry.Knowles@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "darkturquoise"
+                                        },
+                                        {
+                                            "title": "Behavioural Insights (Melody Rhydderch)",
+                                            "name": "Melody Rhydderch",
+                                            "email": "Melody.Rhydderch@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "rebeccapurple"
+                                        },
+                                        {
+                                            "title": "Evaluation (David Bleines)",
+                                            "name": "David Bleines",
+                                            "email": "David.Bleines@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "rebeccapurple"
+                                        },
+                                        
+                                        {
+                                            "title": "Economist (Luke Davies)",
                                             "name": "Luke Davies",
                                             "email": "Luke.Davies@cyfoethnaturiolcymru.gov.uk",
                                             "level": "magenta"
 
                                         },
-                                      
                                         {
-                                            "title": "Evaluation",
-                                            "name": "Vacant",
-                                            "email": "@cyfoethnaturiolcymru.gov.uk",
-                                            "level": "rebeccapurple"
-                                        },
-                                        {
-                                            "title": "Behavioural Insights",
-                                            "name": "Vacant",
-                                            "email": "@cyfoethnaturiolcymru.gov.uk",
-                                            "level": "rebeccapurple"
-                                        },
-                                       
-                                        {
-                                            "title": "Evidence Synthesis and Communication",
-                                            "name": "Josephine Jackson ",
-                                            "email": "Josephine.Jackson@cyfoethnaturiolcymru.gov.uk",
-                                            "level": "darkturquoise"
-                                        },
-                                        {
-                                            "title": "Modelling, Risk, and Uncertainty",
-                                            "name": "Vacant",
-                                            "email": "@cyfoethnaturiolcymru.gov.uk",
-                                            "level": "darkturquoise"
-                                        },
-                                       
-                                        {
-                                            "title": "Horizon-Scanning and Innovation",
+                                            "title": "Horizon-Scanning & Innovation (Holly Butterworth)",
                                             "name": "Holly Butterworth",
                                             "email": "holly.butterworth@cyfoethnaturiolcymru.gov.uk",
                                             "level": "orange"
+                                        },
+                                        {
+                                            "title": "Evidence Advisor (Seren Metcalfe)",
+                                            "name": "Seren Metcalfe",
+                                            "email": "Seren.Metcalfe@cyfoethnaturiolcymru.gov.uk",
+                                            "level": "forestgreen"
                                         }
-                                    ]
-                                },
+        
+                            ]
+                        },
+                        
+                        
                                 {
                                     "title": "Embedded Evidence ",
                                     "name": "Programme Managers",
                                     "level": "forestgreen",
                                     "children": [
+
+                                        
+
+                                        
                                         {
-                                            "title": "Central Evidence",
-                                            "name": "Kathryn Monk & Nina Menichino",
-                                            "level": "darkslategray"
+                                            "title": "Central Evidence (Nina / Mike Evans)",
+                                            "name": "",
+                                            "level": "forestgreen",
+                                            "children": [
+                                                {
+                                                    "title" : "Area Evidence Champions",
+                                                    "name" : "",
+                                                    "level" : "SteelBlue",
+                                                    "children" : [
+                                                        {
+                                                            "title": "North West",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        },
+                                                        {
+                                                            "title": "North East",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        },
+                                                        {
+                                                            "title": "Mid Wales",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        },
+                                                        {
+                                                            "title": "South West",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        },
+                                                        {
+                                                            "title": "South Central",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        },
+                                                        {
+                                                            "title": "South East",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+
+                                                        }
+
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
-                                            "title": "Flood Risk",
-                                            "name": "Vicky Greest & Nick Pritchard",
+                                            "title": "Flood Risk (Vicky Greest, Nick Pritchard / Jeremy Parr) ",
+                                            "name": "",
                                             "level": "darkslategray",
-                                            "email" : "Vicky.Greest@cyfoethnaturiolcymru.gov.uk"
+                                            "email" : "floodrisk@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
-                                            "title": "NRM - Marine, Inland Water, Biodiversity",
-                                            "name": "Kirsten Ramsay (Marine), Geraint Webber (Water), Holly York (Biodiversity)",
+                                            "title": "NRM - Marine (Kirsten Ramsay / Ruth Jenkins)",
+                                            "name": "",
                                             "level": "darkslategray",
-                                            "email" : "Kirsten.Ramsay@cyfoethnaturiolcymru.gov.uk, Geraint>Webber@cyfoethnaturiolcymru.gov.uk, Holly.York@cyfoethnaturiolcymru.gov.uk"
+                                            "email" : "Kirsten.Ramsay@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
-                                            "title": "Regulation",
-                                            "name": "Martyn Evans (Regulatory Futures)",
+                                            "title": "NRM - Inland Water (Geraint Weber, Tracey Dunford / Ruth Jenkins)",
+                                            "name": "",
+                                            "level": "darkslategray",
+                                            "email" : "Geraint>Webber@cyfoethnaturiolcymru.gov.ukk"
+                                        },
+                                        {
+                                            "title": "NRM - Biodiversity (Sarah Wood, Michaela Scriven / Ruth Jenkins)",
+                                            "name":"",
+                                            "level": "darkslategray",
+                                            "email" : "biodiversity@cyfoethnaturiolcymru.gov.uk"
+                                        },
+                                        {
+                                            "title": "NRM - SMNR (Sarah Williams / Ruth Jenkins)",
+                                            "name": "",
+                                            "level": "darkslategray",
+                                            "email" : "biodiversity@cyfoethnaturiolcymru.gov.uk"
+                                        },
+                                        
+                                        {
+                                            "title": "NRM- Agriculture / Land management (Bob Vaughan / Ruth Jenkins)",
+                                            "name": "",
+                                            "level": "darkslategray",
+                                            "email" : "biodiversity@cyfoethnaturiolcymru.gov.uk"
+                                        },
+                                        {
+                                            "title": "Regulation (Martyn Evans & Rob Price / Isobel Moore)",
+                                            "name": "",
                                             "level": "darkslategray",
                                             "email" : "Martyn.Evans@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
-                                            "title": "Land Stewardship",
-                                            "name": "Chris D Jones",
+                                            "title": "Land Stewardship (Chris D Jones / Dominic Driver)",
+                                            "name": "",
                                             "level": "darkslategray",
                                             "email" : "Chris.D.Jones@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
-                                            "title": "Corporate Services",
-                                            "name": "Martin Parkinson & Tom Marshall",
+                                            "title": "Corporate Services (Thomas Marshall/ Paul Subacci)",
+                                            "name": "",
                                             "level": "darkslategray",
-                                            "email" : "Tom.Marshall@cyfoethnaturiolcymru.gov.uk"
+                                            "email" : "Thomas.Marshall@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
-                                            "title": "Incidents & Responses",
-                                            "name": "Kath Bollington",
+                                            "title": "Incidents & Responses (Kath Bollington / Jeremy Parr)",
+                                            "name": "",
                                             "level": "darkslategray",
                                             "email" : "Kath.Bollington@cyfoethnaturiolcymru.gov.uk"
                                         }
-                
-                                    ]
-                                }
+                                            ]
+                                        }
+                             
                             ]
                         }
                     ]
                 },
+               
+
                 {
-                    "name": "Interdisciplinary Specialists",
-                    "level": "maroon",
+                    "title": "Environment Platform Wales",
+                    "name": "EPW",
+
+                    "level": "DeepskyBlue",
                     "children": [
                         {
-                            "title": "Economics",
-                            "name": "John Gossage",
-                            "level": "magenta",
-                            "email": "John.Gossage@cyfoethnaturiolcymru.gov.uk"
+                            "title": "Director EPW (Jennifer Geroni)",
+                            "name": "Jennifer Geroni",
+                            "email": "jennifer.geroni@epwales.org.uk",
+                            "level": "DeepskyBlue",
+                            "children": [
+                                {
+                                    "title": "Comms & Marketing (Gemma Treharne-Foose)",
+                                    "name": "Gemma Treharne-Foose",
+                                    "email": "Gemma.TF@epwales.org.uk",
+                                    "level": "DeepskyBlue"
 
+                                },
+                                {
+                                    "title": "Administrator (Sue Cody)",
+                                    "name": "Sue Cody",
+                                    "email": "Sue.Cody@epwales.org.uk",
+                                    "level": "DeepskyBlue"
 
-                        },
-                        {
-                            "title": "Social Scientist",
-                            "name": "Susan Williams",   
-                            "email": "Susan.Williams@cyfoethnaturiolcymru.gov.uk",
-                            "level": "rebeccapurple"
-                        },
-                         {
-                            "title": "Statistician",
-                            "name": "Richard Cardwell",
-                            "email": "Richard.Cardwell@cyfoethnaturiolcymru.gov.uk",
-                            "level": "darkturquoise"
-                        },
-                       
-                        {
-                            "title": "Operations Research",
-                            "name": "Luke Maggs",
-                            "email": "Luke.Maggs@cyfoethnaturiolcymru.gov.uk",
-                            "level": "orange"
+                                },
+                                {
+                                    "title": "Comms & Events (Mark Petherick)",
+                                    "name": "Mark Petherick",
+                                    "email": "mark.pethrick@naturalresourceswales.gov.uk",
+                                    "level": "forestgreen"
+                                }
+                            ]
                         }
                     ]
                 }

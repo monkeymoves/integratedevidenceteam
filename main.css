@@ -73,3 +73,19 @@ img {
   height: auto;
 }
 
+.link_continuous {
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 1.5px;
+}
+.link_dashed {
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 1.5px;
+  stroke-dasharray: 20,10,5,5,5,10;
+}
+
+.logoNRW{
+  width: 100%;
+  height: auto;
+}

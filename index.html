@@ -6,24 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
 
-    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <!-- <script src='https://d3js.org/d3.v5.min.js'></script> -->
 
     <title>Integrated Evidence Structure</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css"></link>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script> -->
+    <script src="scripts\d3.min.js"> </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <script src="scripts\jquery.min.js"> </script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css"></link> -->
+    <script src="scripts\select2.min.css"> </script>
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script> -->
+    <script src="scripts\select2.min.js"> </script>
+
 </head>
 
 
 <body>
 
-    <div class="header">
+    <div class="header logoNRW">
         <img src="nrwlogo.png" > </img>
-        <!-- <p>My supercool header</p> -->
       </div>
-    <div id="block_container">
-    
+    <div id="block_container">    
         <div id="instructions">Search for a role/person in the box below or click on the nodes to expand the tree! (ctrl -+ to zoom) </div>
         <div id="searchName"></div> <br>
         <div id="details">
@@ -34,7 +39,8 @@
         </div>
     
     </div>
-          <script>
+    
+<script>
 
 // search start
 
@@ -139,9 +145,9 @@ $("#searchName").on("select2-selecting", function(e) {
 // search end
 
 
-var margin = {top: 10, right: 10, bottom: 10, left: 200},
+var margin = {top: 0, right: 10, bottom: 0, left: 170},
     width = 2500 - margin.right - margin.left,
-    height = 700 - margin.top - margin.bottom;
+    height = 800 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 700,
@@ -237,7 +243,7 @@ var texts = nodeEnter.append('g')
       .attr("dy", "3.30em")
       .attr("dx", ".70em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
+    //   .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6);
   
   // title
@@ -322,20 +328,50 @@ var texts = nodeEnter.append('g')
         return diagonal({source: o, target: o});
       });
 
+      link.style('stroke-dasharray', function (d) {
+        if (d["target"]['name'] === 'Innovation') {
+            return ("10,3");
+        }
+        if (d["target"]['name'] === 'Chair: Ben Wilson') {
+            return ("10,3");
+        }
+        if (d["target"]['level'] === 'DeepskyBlue') {
+            return ("10,3");
+        }
+        if(d["target"]['name'] === 'Place-based Teams'){
+            return ("10", "3")
+        }
+        if(d["target"]['level'] === 'SteelBlue'){
+            return ("10", "3")
+        }
+        if(d["target"]['level'] === 'darkslategray'){
+            return ("10", "3")
+        }
+        if (d["target"]['name'] === 'Programme Managers') {
+            return ("10,3");
+        }
+       
+        else {
+            return undefined;
+        }
+      })
   // Transition links to their new position.
   link.transition()
       .duration(duration)
       .attr("d", diagonal)
+      
 	  .style("stroke", function(d) {
             if (d.target.class === "found") {
+                
                 return "#ff4136";
+                
             } else if (d._children) {
                 return d.target.level;
+                
             } else {
                 return d.target.level;
             }
         });
-
 
   // Transition exiting nodes to the parent's new position.
   link.exit().transition()
@@ -346,12 +382,14 @@ var texts = nodeEnter.append('g')
       })
       .remove();
 
+    
   // Stash the old positions for transition.
   nodes.forEach(function(d) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
 }
+
 
 
 </script>
