@@ -110,7 +110,7 @@
                             "level": "forestgreen",
                             "children": [
                                 {
-                                    "title" : "Evidence Team",
+                                    "title" : "EP3",
                                     "level": "forestgreen",
                                     "children" : [
                                                                       
@@ -173,55 +173,10 @@
 
                                         
                                         {
-                                            "title": "Central Evidence (Nina / Mike Evans)",
+                                            "title": "Central Evidence (Nina Menichino / Mike Evans)",
                                             "name": "",
                                             "level": "forestgreen",
-                                            "children": [
-                                                {
-                                                    "title" : "Area Evidence Champions",
-                                                    "name" : "",
-                                                    "level" : "SteelBlue",
-                                                    "children" : [
-                                                        {
-                                                            "title": "North West",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        },
-                                                        {
-                                                            "title": "North East",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        },
-                                                        {
-                                                            "title": "Mid Wales",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        },
-                                                        {
-                                                            "title": "South West",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        },
-                                                        {
-                                                            "title": "South Central",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        },
-                                                        {
-                                                            "title": "South East",
-                                                            "name": "",
-                                                            "level": "SteelBlue"                        
-
-                                                        }
-
-                                                    ]
-                                                }
-                                            ]
+                                            "email": "nina.menichinio@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
                                             "title": "Flood Risk (Vicky Greest, Nick Pritchard / Jeremy Parr) ",
@@ -283,6 +238,58 @@
                                             "name": "",
                                             "level": "darkslategray",
                                             "email" : "Kath.Bollington@cyfoethnaturiolcymru.gov.uk"
+                                        },
+                                        {
+                                            "title" : "Area Evidence Champions",
+                                            "name" : "",
+                                            "level" : "SteelBlue",
+                                            "children" : [
+                                                {
+                                                    "title": "Place Based Ops Staff",
+                                                    "level": "SteelBlue",
+                                                    "children": [
+                                                        {
+                                                            "title": "North West",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        },
+                                                        {
+                                                            "title": "North East",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        },
+                                                        {
+                                                            "title": "Mid Wales",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        },
+                                                        {
+                                                            "title": "South West",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        },
+                                                        {
+                                                            "title": "South Central",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        },
+                                                        {
+                                                            "title": "South East",
+                                                            "name": "",
+                                                            "level": "SteelBlue"                        
+        
+                                                        }
+                                                    ]
+                                                }
+
+                                                
+
+                                            ]
                                         }
                                             ]
                                         }
