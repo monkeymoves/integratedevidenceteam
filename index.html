@@ -260,7 +260,8 @@ var texts = nodeEnter.append('g')
             if (d.class === "found") {
                 return "#ff4136"; //red
             } else if (d._children) {
-                return d.level;
+               //commented out the line that fills the circle if no children
+		//return d.level;
             } else {
                 return d.level;
             }
