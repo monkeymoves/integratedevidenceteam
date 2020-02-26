@@ -213,6 +213,7 @@
                                             "title": "NRM- Agriculture / Land management (Bob Vaughan / Ruth Jenkins)",
                                             "name": "",
                                             "level": "darkslategray",
+
                                             "email" : "biodiversity@cyfoethnaturiolcymru.gov.uk"
                                         },
                                         {
@@ -229,6 +230,12 @@
                                         },
                                         {
                                             "title": "Corporate Services (Thomas Marshall/ Paul Subacci)",
+                                            "name": "",
+                                            "level": "darkslategray",
+                                            "email" : "Thomas.Marshall@cyfoethnaturiolcymru.gov.uk"
+                                        },
+                                           {
+                                            "title": "Commercial (Thomas Marshall/ Sasha Wyn Davies)",
                                             "name": "",
                                             "level": "darkslategray",
                                             "email" : "Thomas.Marshall@cyfoethnaturiolcymru.gov.uk"
