@@ -67,7 +67,7 @@
                             "name": "Susan Williams",   
                             "email": "Susan.Williams@cyfoethnaturiolcymru.gov.uk",
                             "level": "rebeccapurple"
-                        },
+                       },
                         {
                             "title": "Economics (John Gossage)",
                             "name": "John Gossage",
@@ -100,7 +100,7 @@
                 },
                 
                 {
-                    "title": "Evidence Portfolios Programmes & Processes",
+                    "title": "Evidence Portfolio, Programmes, & Processes (EP3)",
                     "level": "maroon",
                     "children": [
                         {
