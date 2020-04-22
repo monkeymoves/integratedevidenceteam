@@ -100,11 +100,11 @@
                 },
                 
                 {
-                    "title": "Evidence Programmes",
+                    "title": "Evidence Portfolios Programmes & Processes",
                     "level": "maroon",
                     "children": [
                         {
-                            "title": "Evidence Team Leader (Nina Menichino)",
+                            "title": "EP3 (Nina Menichino)",
                             "name": "Nina Menichino",
                             "email": "nina.m.menichino@cyfoethnaturiolcymru.gov.uk",
                             "level": "forestgreen",
@@ -337,7 +337,7 @@
                                     "title": "Comms & Events (Mark Petherick)",
                                     "name": "Mark Petherick",
                                     "email": "mark.pethrick@naturalresourceswales.gov.uk",
-                                    "level": "forestgreen"
+                                    "level": "DeepskyBlue"
                                 }
                             ]
                         }
